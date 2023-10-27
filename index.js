@@ -1,9 +1,9 @@
 
 import express from 'express';
 import cors from 'cors';
-import envConfig from './utils/env.config';
-import globalError from './middlewares/globalError';
-import notFound from './middlewares/notFound';
+import notFound from './middlewares/notFound.js';
+import globalError from './middlewares/globalError.js';
+import envConfig from './utils/env.config.js';
 
 //initial app
 const app = express();

@@ -1,4 +1,7 @@
-import ApiErrors from "../errors/ApiError"
+import ApiErrors from "../errors/ApiError.js";
+
+
+
 
 const globalError = async (error, req, res, next) => {
   let status = error.status || 500

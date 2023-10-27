@@ -3,11 +3,11 @@
   "module": "index.js",
   "type": "module",
   "devDependencies": {
-    "bun-types": "latest",
-    "eslint": "^8.52.0"
+    "bun-types": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "eslint": "^8.52.0"
   },
   "dependencies": {
     "cors": "^2.8.5",
